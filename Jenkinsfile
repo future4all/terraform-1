@@ -4,9 +4,24 @@ pipeline {
   stages{
     stage('build'){
       steps{
-        sh 'echo Hello'
+      sh 'echo Hello'
+      }
+    }
+    stage('package'){
+      steps{
+      sh 'echo Hello'
+      }
+    }
+    stage('deploy'){
+      steps{
+      sh 'echo Hello'
+      }
+    }
+    stage('artifact'){
+      steps{
+      sh 'echo Hello'
       }
     }
   }
+  
 }
-    
